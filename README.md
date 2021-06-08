@@ -162,5 +162,5 @@
 
         </table>
         <footer>
-        &copy; 2021. Unisys&trade; Elavate&reg; 2021 
+        &copy; 2021. Vidya Technologies. Pvt. Ltd. &trade; Elavate&reg; 2021 
     </footer>
