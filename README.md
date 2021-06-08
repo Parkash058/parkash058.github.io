@@ -63,23 +63,7 @@
     &copy; 2021. Vidya Technologies. Pvt. Ltd.&trade; Elavate&reg; 2021 
 </footer>
 
-        <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Course Curriculamm</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body style="background-color:wheat">
-   <center> <img src="html-coding.jpg" alt="Girl in a jacket" width="500" height="140"> </center>
-
-
-    <center>  <h1 id = "syllTitle">Fundamentals of Web Technologies</h1></center>
-   <h3 id = "scrollTitle"> <marquee behavior="scroll" direction="left">If you are Intrested - <a href="Registration.html">Click here to Enroll for course.</a>!</marquee>
-   </h3>
-  <h2>Worksop outline</h2>  
+       <h2>Worksop outline</h2>  
   <h3>Session-1</h3>
   <dl>
     <dd> &nbsp;&nbsp; -Web Overview – Client/Server Apps – Clients: Browser, Desktop, Mobile – Servers: Apache, Node</dd>
@@ -178,9 +162,3 @@
         <footer>
         &copy; 2021. Unisys&trade; Elavate&reg; 2021 
     </footer>
-    </body>
-</html>
-
-   
-    
-    
