@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+        <center> <img src="html-coding.jpg" alt="Girl in a jacket" width="500" height="140"> </center>
+
       <center>  <h1 id= "HomeTitle">Fundamentals of Web Technologies</h1></center>
     <center> <h2>for UI (Front-End) Development</h2></center>
     <center><h3>Hands-on Foundation Bootcamp Workshop</h3></center>
