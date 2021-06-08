@@ -61,6 +61,6 @@
     <dd class = "lang-menu"> -&nbsp;&nbsp; Basic Programming knowledge and experience</dd>
 </dl>
 <footer>
-    &copy; 2021. Unisys&trade; Elavate&reg; 2021 
+    &copy; 2021. Vidya&trade; Elavate&reg; 2021 
 </footer>
 </body>
