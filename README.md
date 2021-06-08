@@ -1,163 +1,66 @@
-## Welcome to Machine Learning Tutorials
-
-You can use the [editor on GitHub](https://github.com/Parkash058/parkash058.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First HTML</title>
-    <link rel="stylesheet" href="01-Style.css">
-    <style>
-
-    </style>
+    <title>First Day1 Assignment</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <img class="banner-img" src="https://picsum.photos/200/300" alt="Logo">
-    <section>
-        <h2 id="appTitle">CloudForte 2021 &amp; AWS Cloud Migration 🎁🎁</h2>
-        <header>
+    <center> <img src="html-coding.jpg" alt="Girl in a jacket" width="500" height="140"> </center>
+    <center>  <h1 id= "HomeTitle">Fundamentals of Web Technologies</h1></center>
+    <center> <h2>for UI (Front-End) Development</h2></center>
+    <center><h3>Hands-on Foundation Bootcamp Workshop</h3></center>
+    <center><h4>Internal</h4></center>
+    <h3 id = "attenTitle"> <marquee behavior="scroll" direction="left">To  know more details  about the course and curriculam, please <a href="Syallabus.html">Click here for - Syallbys and registration.</a></>!</marquee>
 
-            <main>CloudForte 2021 Compitation </main>
-            <footer>
-                &copy; 2021. Unisy&trade; Elavate&reg; 2021
-            </footer>
-        </header>
-    </section>
-    <h1></h1>
-    <h2></h2>
-    <h3></h3>
-    <h4></h4>
-    <h5></h5>
-    <h6></h6>
-    <span style="font-size: xx-large; font-weight: bolder; color:blueviolet;"> Application Title. </span>
+    <h3>Introduction</h3>
+    <div>Web technology (HTML, CSS, and Javascript) is a must-have skill for software development today. 
+        In fact, it is a foundation for all modern software solutions. Without a strong foundation in web 
+        technology, engineers are unable to meet the product quality and delivery time. This workshop provides
+         a strong foundation to learn any front-end framework like Angular or React.</div>
+    <p>Though there are numerous courses available online, that are not effective as those trainings are long hours, 
+        non-interactive and outdated. The external instructor (without real-time product/project development 
+        experience) led trainings are not effective as well, as those trainings are packed with too many concepts 
+        for a short period (2-3 Full day). This leaves the engineers with no time to practice their learning as 
+        they are pressured with project deliverables. Also, the external trainers are not aware of the internal 
+        project requirements and unable to relate to real-world problems</p>
 
-    <span>Section Title </span>
+        Hence, we need customized interactive internal hands-on workshops for our engineers.
 
-    &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;<span>Lorem,
-        ipsum dolor sit.</span>
-    &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; <DIV>Lorem, ipsum dolor sit amet consectetur &nbsp;
-        adipisicing elit</DIV>
-    <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit</P>
-    <ul>
-        <li>Mango</li>
-        <li>Bananna</li>
-        <li>Stawberry</li>
-        <li>Orange</li>
-    </ul>
-    <ol>
-        <li class="lang-menu">HTML</li>
-        <li class="lang-menu">CSS</li>
-        <li class="lang-menu">JavaScrip</li>
-    </ol>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro facilis debitis minus adipisci repellendus
-        doloribus corporis quibusdam, explicabo, soluta, quos facere corrupti voluptas architecto quo! Eum eaque fugit
-        eius asperiores.</p>
-    <span>Hi there</span>
-    <table>
-        <tr>
-            <th>SI.No</th>
-            <th>Name</th>
-            <th>Email</th>
-        </tr>
-        <tr>
-            <th>1</th>
-            <th>dash</th>
-            <th>Giri</th>
-        <tr>
-            <th>2</th>
-            <th>Mazra</th>
-            <th>Mazra@unisys.com</th>
-        </tr>
-        </tr>
-    </table>
+        <h3>Objectives:</h3>
+        <ul>
+            <ol>
+            <li>To provide a strong foundation on web technology – HTML, CSS, and Javascript (which they work on day, 
+                night and sometimes over the weekends too)</li>
+            <li>Explain the importance of software craftsmanship principles, disciplines, best coding principles and practices, DOs and DON’Ts, code reviews and code optimization by creating re-usable 
+                code/functions/utility libraries or frameworks with live examples</li>
+            </ol>
+        </ul>
+        <h3>Schedule:</h3>
+        <b>Half-a-day workshop</b> (3Hrs: Core: 1Hr(Q&A, troubleshoot, assignments reviews): 1Hr break) <br>
+        <b>09:30 AM - 2:30 PM : (Mon+Thu  or Tue+Fri or Mon+Wed+Fri</b> So, the participants get to practice as well as support 
+        project priorities
 
-    <form action="">
-        <div>
-            <label>
-                First name
-                <input type="text" placeholder="Enter your Firstname">
-            </label>
-        </div>
-        <div>
-            <label>
-                Fruits:
-                <label>Apple <input type="checkbox"> </label>
-                <label>Mango <input type="checkbox"></label>
-                <label>Orange <input type="checkbox"></label>
-            </label>
-        </div>
-        <div>
-            <label>
-                Fruits:
-                <label>Apple <input type="radio"></label>
-                <label>Mango <input type="radio"></label>
-                <label>Orange <input type="radio"></label>
-            </label>
-        </div>
-
-        <div>
-            <label>
-                Comments:
-                <textarea name="" id="" cols="30" rows="10"></textarea>
-            </label>
-        </div>
-        <div>
-            <label>
-                Country:
-
-                <input type="text">
-
-                <select name="" id="">
-                    <option value="">USA</option>
-                    <option value="">UK</option>
-                    <option value="">IN</option>
-        </div>
-        </select>
-        </label>
-    </form>
-    <footer>
-        &copy; 2020. Unisys&trade;Elevate&reg; 2020
-    </footer>
+        <h3 id = "ruleTitle" >Rules, Terms and Conditions:</h3>
+        <dl>
+            <dd> - &nbsp; &nbsp;<b>On Time</b> (15 min early to setup laptop/environment/catchup)Every session - (No excuses for joining late)
+            </dd>
+            <dd>- &nbsp; &nbsp; Cannot skip a session – (if so, dropout from the bootcamp & re-register for the next series if you wish)</dd>
+            <dd>-&nbsp; &nbsp; <b> No Access </b> to Mobile & Mail & IM (Official/Personal) during the workshop</dd>
+            <dd>- &nbsp; &nbsp;Mandate to complete assignments. (<b> **No excuses**</b> [<u>  *project deliverables*</u>] for not doing)</dd>
+            <dd>- &nbsp; &nbsp;Course Content is subject to change during the workshop, based on participants’ skill / knowledge / interest / participation</dd>
+        </dl>
+        
+<h3>Requirements</h3>
+<dl>
+    <dd class = "lang-menu"> -&nbsp;&nbsp; Laptop </dd>
+    <dd class = "lang-menu"> -&nbsp;&nbsp; VS Code(Setup Guide will be shared prior to the workshop)</dd>
+    <dd class = "lang-menu">-&nbsp;&nbsp; Chrome Browser</dd>
+    <dd class = "lang-menu"> -&nbsp;&nbsp; Basic Programming knowledge and experience</dd>
+</dl>
+<footer>
+    &copy; 2021. Unisys&trade; Elavate&reg; 2021 
+</footer>
 </body>
-
-</html>
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Parkash058/parkash058.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
