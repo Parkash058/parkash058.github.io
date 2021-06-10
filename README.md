@@ -1,166 +1,269 @@
+<!DOCTYPE HTML>
+<!--
+	Verti by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Vidya Technologies. Pvt. Ltd.</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload homepage">
+				<div id="page-wrapper">
 
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>First Day1 Assignment</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-        <center> <img src="html-coding.jpg" alt="Girl in a jacket" width="500" height="140"> </center>
+			<!-- Header -->
+				<div id="header-wrapper">
+					<header id="header" class="container">
 
-      <center>  <h1 id= "HomeTitle">Fundamentals of Web Technologies</h1></center>
-    <center> <h2>for UI (Front-End) Development</h2></center>
-    <center><h3>Hands-on Foundation Bootcamp Workshop</h3></center>
-    <center><h4>Internal</h4></center>
-    <h3 id = "attenTitle"> <marquee behavior="scroll" direction="left">To  know more details  about the course and curriculam, please <a href="Syallabus.html">Click here for - Syallbys and registration.</a></>!</marquee>
+						<!-- Logo -->
+							<div id="logo">
+								<h1><a href="index.html">Vidhya Technologies Pvt. Ltd.</a></h1>
+								<span>	</span>
+							</div>
 
-    <h3>Introduction</h3>
-    <div>Web technology (HTML, CSS, and Javascript) is a must-have skill for software development today. 
-        In fact, it is a foundation for all modern software solutions. Without a strong foundation in web 
-        technology, engineers are unable to meet the product quality and delivery time. This workshop provides
-         a strong foundation to learn any front-end framework like Angular or React.</div>
-    <p>Though there are numerous courses available online, that are not effective as those trainings are long hours, 
-        non-interactive and outdated. The external instructor (without real-time product/project development 
-        experience) led trainings are not effective as well, as those trainings are packed with too many concepts 
-        for a short period (2-3 Full day). This leaves the engineers with no time to practice their learning as 
-        they are pressured with project deliverables. Also, the external trainers are not aware of the internal 
-        project requirements and unable to relate to real-world problems</p>
+						<!-- Nav -->
+							<nav id="nav">
+								<ul>
+									<li class="current"><a href="index.html">Home</a></li>
+									<li>
+										<a href="#">Courses</a>
+										<ul>
+											<li><a href="#">Foundation of Web Technologies</a>
+												<ul>
+												<li><a href="html-basics.html">Basics of HTML</a></li>
+												<li><a href="css-basics.html">Fundamental of CSS</a></li>
+																								<li><a href="javascript-basics.html">Basics of Java Script</a></li> </li> </ul>	
+																				<li><a href="#">Internet of Things and Robotics</a></li>
+											<li>
+												<a href="#">Data Science</a>
+												<ul>
+													<li><a href="#">Numpy</a></li>
+													<li><a href="#">Pandas</a></li>
+													<li><a href="#">Matplotlib</a></li>
+													<li><a href="#">Machine Learning </a></li>
+												</ul>
+											</li>
+											<li><a href="#">Deep Learning</a></li>
+										</ul>
+									</li>
+									<li><a href="left-sidebar.html">Blog</a></li>
+									<li><a href="right-sidebar.html">Resources</a></li>
+									<li><a href="no-sidebar.html">Contact Us</a></li>
+								</ul>
+							</nav>
 
-        Hence, we need customized interactive internal hands-on workshops for our engineers.
+					</header>
+				</div>
 
-        <h3>Objectives:</h3>
-        <ul>
-            <ol>
-            <li>To provide a strong foundation on web technology – HTML, CSS, and Javascript (which they work on day, 
-                night and sometimes over the weekends too)</li>
-            <li>Explain the importance of software craftsmanship principles, disciplines, best coding principles and practices, DOs and DON’Ts, code reviews and code optimization by creating re-usable 
-                code/functions/utility libraries or frameworks with live examples</li>
-            </ol>
-        </ul>
-        <h3>Schedule:</h3>
-        <b>Half-a-day workshop</b> (3Hrs: Core: 1Hr(Q&A, troubleshoot, assignments reviews): 1Hr break) <br>
-        <b>09:30 AM - 2:30 PM : (Mon+Thu  or Tue+Fri or Mon+Wed+Fri</b> So, the participants get to practice as well as support 
-        project priorities
+			<!-- Banner -->
+				<div id="banner-wrapper">
+					<div id="banner" class="box container">
+						<div class="row">
+							<div class="col-7 col-12-medium">
+								<h2></h2>
+								<p>The Open Source Learning Resources and Blogs</p>
+							</div>
+							<div class="col-5 col-12-medium">
+								<ul>
+									<li><a href="#" class="button large icon solid fa-arrow-circle-right">Ok let's go</a></li>
+									<li><a href="#" class="button alt large icon solid fa-question-circle">More info</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
 
-        <h3 id = "ruleTitle" >Rules, Terms and Conditions:</h3>
-        <dl>
-            <dd> - &nbsp; &nbsp;<b>On Time</b> (15 min early to setup laptop/environment/catchup)Every session - (No excuses for joining late)
-            </dd>
-            <dd>- &nbsp; &nbsp; Cannot skip a session – (if so, dropout from the bootcamp & re-register for the next series if you wish)</dd>
-            <dd>-&nbsp; &nbsp; <b> No Access </b> to Mobile & Mail & IM (Official/Personal) during the workshop</dd>
-            <dd>- &nbsp; &nbsp;Mandate to complete assignments. (<b> **No excuses**</b> [<u>  *project deliverables*</u>] for not doing)</dd>
-            <dd>- &nbsp; &nbsp;Course Content is subject to change during the workshop, based on participants’ skill / knowledge / interest / participation</dd>
-        </dl>
-        
-<h3>Requirements</h3>
-<dl>
-    <dd class = "lang-menu"> -&nbsp;&nbsp; Laptop </dd>
-    <dd class = "lang-menu"> -&nbsp;&nbsp; VS Code(Setup Guide will be shared prior to the workshop)</dd>
-    <dd class = "lang-menu">-&nbsp;&nbsp; Chrome Browser</dd>
-    <dd class = "lang-menu"> -&nbsp;&nbsp; Basic Programming knowledge and experience</dd>
-</dl>
-<footer>
-    &copy; 2021. Vidya Technologies. Pvt. Ltd.&trade; Elavate&reg; 2021 
-</footer>
+			<!-- Features -->
+				<div id="features-wrapper">
+					<div class="container">
+						<div class="row">
+							<div class="col-4 col-12-medium">
 
-       <h2>Worksop outline</h2>  
-  <h3>Session-1</h3>
-  <dl>
-    <dd> &nbsp;&nbsp; -Web Overview – Client/Server Apps – Clients: Browser, Desktop, Mobile – Servers: Apache, Node</dd>
-    <dd>&nbsp;&nbsp;- Environment (Tools + Extensions) Overview – VS Code, Chrome | Firefox | Edge </dd>
-    <dd>&nbsp;&nbsp;- VS Code (Shortcuts, Extensions, Configurations)</dd>
-    <dd>&nbsp;&nbsp;- HTML (Structure, Tags, Attributes, Properties, Events)</dd>
-    <dd>&nbsp;&nbsp;- CSS Basics – External Frameworks (Bootstrap, Foundation, Material UI, Semantic UI)</dd>
-    <dd>&nbsp;&nbsp;- Assignment: Personal Profile Page – One Page with sections</dd>
-</dl>
-<h3>Session-2</h3>
-<dl>
-    <dd>&nbsp;&nbsp; - Assignment Review / Recap </dd>
-    <dd>&nbsp;&nbsp; - Javascript –  Inline vs External (+CDN) </dd>
-    <dd>&nbsp;&nbsp; - Programming – Fundamentals (IPO, REPL) </dd>
-    <dd>&nbsp;&nbsp; - Introduction to Javascript – with the context of Compiler & Interpreter  </dd>
-    <dd>&nbsp;&nbsp; - Comments – Single, Multi </dd>
-    <dd>&nbsp;&nbsp; - Output: alert, console</dd>
-    <dd>&nbsp;&nbsp;- Variables – var, let, const </dd> 
-    <dd>&nbsp;&nbsp; - <b> Statements </b></dd></dl>
-    <ul>
-        <li>Assignment</li>
-        <li>Computation</li>
-        <li>Condition: if... else , switch</li>
-        <li>Loop: for, while*, do..., while</li>
-        <li>try.. catch</li>
-    </ul>
- - Assignments: Enhance Personal profile page    
- <h3>Session-3</h3>
-     <dl>
-         <dd>&nbsp;&nbsp; - Assignment Review/Recap</dd>
-         <dd>&nbsp;&nbsp; - Function- Arguments, return</dd>
-         <dd>&nbsp;&nbsp; - Assignment: function sum</dd>
-         <dd>&nbsp;&nbsp; - Function – named vs anonymous, expression, IIFE, calling (call, apply)</dd>
-         <dd>&nbsp;&nbsp; - Variable scope (global, function, block)</dd>
-     </dl>
-<h3>Session-4</h3>
-<dl>
-    <dd>Assignment Review/ Recap</dd>
-    <dd>&nbsp;&nbsp; - Object Construction- with/without function</dd>
-    <dd>&nbsp;&nbsp; - Properties, methods</dd>
-    <dd>&nbsp;&nbsp; - this</dd>
-    <dd>&nbsp;&nbsp; - prototypes</dd>
-    <dd>&nbsp;&nbsp; - Built-in Object funtion - String, Array. Object Methods(for full list refer online MDN doc)</dd>
-             <ul>
-                <li > Trim, forEach, map, filter, ....</li>
-             </ul>
-        <dd>&nbsp;&nbsp; - JSON, Stringify, parse</dd>
-        <dd>&nbsp;&nbsp; - Assignment: MDM - String, Array, Object Methods</dd>
-<h3>Session-5</h3>
-        <dl>
-            <dd>&nbsp;&nbsp; - Assignment Review / Recap</dd>
-            <dd>&nbsp;&nbsp; - DOM Structure</dd>
-            <dd>&nbsp;&nbsp; - DOM Selectors (native vs jQuery vs querySelector)</dd>
-            <dd>&nbsp;&nbsp; - DOM Manipulation (native vs jQuery)</dd>
-            <dd>&nbsp;&nbsp; - Assignment – Profile Page – Show/Hide Sections</dd>
-        </dl>
- <h3>Session-6</h3>
-        <dl>
-            <dd>&nbsp;&nbsp; - Assignment Review / Recap</dd>
-            <dd>&nbsp;&nbsp; - DOM Structure</dd>
-            <dd>&nbsp;&nbsp; - DOM Selectors (native vs jQuery vs querySelector)</dd>
-            <dd>&nbsp;&nbsp; - DOM Manipulation (native vs jQuery)</dd>
-            <dd>&nbsp;&nbsp; - Assignment – Profile Page – Show/Hide Sections</dd>
-        </dl>
-        <h3>Getting hands on with tools  during the session</h3>
-        <style>
-            table, th, td {
-              border: 1px solid rgb(37, 27, 131);
-            }
-            </style>
-        <table style="width:22%"> 
-            <tr>
-                <th>SI.No</th>
-                <th>Name of Tool</th>
+								<!-- Box -->
+									<section class="box feature">
+										<a href="#" class="image featured"><img src="images/javas.png" alt="" /></a>
+										<div class="inner">
+											<header>
+												<h2>HTML, CSS, Java Script</h2>
+												<p>The smart way of learning Web Technolgies</p>
+											</header>
+											<p>The HTML-CSS-JS trio are the parts of all websites that users directly interact with.
+												Maximize your coding efficiency and provide the best user experience with our free online tool collection!. TML is the foundation of all web pages.
+												 It defines the structure of a page, while CSS defines its style. 
+												HTML and CSS are the beginning of everything you need to know to make your first web page! Learn both and start creating amazing websites.</p>
+										</div>
+									</section>
 
-            </tr>
-            <tr>
-                <th>1</th>
-                <th>Firefox</th>
-            <tr>
-                <th>2</th>
-                <th> VS Code</th>
-                <tr>
-                <th>3</th>
-                <th>live Server</th>
-                <tr>
-                <th>4</th>
-                <th>Chrome</th>
-            </tr>
-        </tr>
-    </tr>
-</tr>
+							</div>
+							<div class="col-4 col-12-medium">
 
+								<!-- Box -->
+									<section class="box feature">
+										<a href="#" class="image featured"><img src="images/industry.png.crdownload" alt="" /></a>
+										<div class="inner">
+											<header>
+												<h2>Artificial Intelligence and Industry 4.0</h2>
+												<p>Artificial Intelligence - The Driving Force of Industry 4.0</p>
+											</header>
+											<p>Industry 4.0 is revolutionizing the way companies manufacture, improve and distribute their products. Manufacturers are integrating enabling technologies, 
+												including Internet of Things (IoT), cloud computing and analytics, and AI and machine learning into their production facilities and throughout their operations..</p>
+										</div>
+									</section>
 
-        </table>
-        <footer>
-        &copy; 2021. Vidya Technologies. Pvt. Ltd. &trade; Elavate&reg; 2021 
-    </footer>
+							</div>
+							<div class="col-4 col-12-medium">
+
+								<!-- Box -->
+									<section class="box feature">
+										<a href="#" class="image featured"><img src="images/iot.png.crdownload" alt="" /></a>
+										<div class="inner">
+											<header>
+												<h2>Internet of Things and Robotics</h2>
+												<p>The Internet of Robotic Things: How IoT and Robotics Tech Are Evolving Together</p>
+											</header>
+											<p>The IoT and robotics communities are coming together to create The Internet of Robotic Things (IoRT). The IoRT is a concept in which intelligent devices 
+												can monitor the events happening around them, fuse their sensor data, make use of local and distributed intelligence to decide on courses of action and then 
+												behave to manipulate or control objects in the physical world..</p>
+										</div>
+									</section>
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+			<!-- Main -->
+				<div id="main-wrapper">
+					<div class="container">
+						<div class="row gtr-200">
+							<div class="col-4 col-12-medium">
+
+								<!-- Sidebar -->
+									<div id="sidebar">
+										<section class="widget thumbnails">
+											<h3>Interesting stuff</h3>
+											<div class="grid">
+												<div class="row gtr-50">
+													<div class="col-6"><a href="#" class="image fit"><img src="images/bd.jpg" alt="" /></a></div>
+													<div class="col-6"><a href="#" class="image fit"><img src="images/edge.jpg" alt="" /></a></div>
+													<div class="col-6"><a href="#" class="image fit"><img src="images/py.jpg" alt="" /></a></div>
+													<div class="col-6"><a href="#" class="image fit"><img src="images/qc.jpg" alt="" /></a></div>
+												</div>
+											</div>
+											<a href="#" class="button icon fa-file-alt">More</a>
+										</section>
+									</div>
+
+							</div>
+							<div class="col-8 col-12-medium imp-medium">
+
+								<!-- Content -->
+									<div id="content">
+										<section class="last">
+											<h2>So what's this all about?</h2>
+											<p>This is <strong>Vidhya Technologies</strong>, a free and Open source platform to learn the advance technologes. <a href="http://html5up.net"></a>.
+											The goal of  this site is to help you learn how to do cool new things. You can find lot of advance technogies blog and free resources such as Arduiono Microcontroller, the Raspberry Pi, Python and Machine Learning. You can find the blogs on emerging technologies such as Big Data, Edge Computing, IoT, Robotics, Machine Learning, and Industry 4.0 </p>
+											<a href="#" class="button icon solid fa-arrow-circle-right">Continue Reading</a>
+										</section>
+									</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+			<!-- Footer -->
+				<div id="footer-wrapper">
+					<footer id="footer" class="container">
+						<div class="row">
+							<div class="col-3 col-6-medium col-12-small">
+
+								<!-- Links -->
+									<section class="widget links">
+										<h3>Main Courses</h3>
+										<ul class="style2">
+											<li><a href="#">Fundamentals of Web Technologies</a></li>
+											<li><a href="#">Basics of Python</a></li>
+											<li><a href="#">Introduction to Numpy, Pandas and Matplotlib</a></li>
+											<li><a href="#">Hands on Machine Learning</a></li>
+											<li><a href="#">Introduction to Internet of Things and Robotics</a></li>
+										</ul>
+									</section>
+
+							</div>
+							<div class="col-3 col-6-medium col-12-small">
+
+								<!-- Links -->
+									<section class="widget links">
+										<h3>Important Links</h3>
+										<ul class="style2">
+											<li><a href="#">The 4th Industrial Revolution</a></li>
+											<li><a href="#">The Internet of Robotics Things</a></li>
+											<li><a href="#">The Cloud and Edge Computing</a></li>
+											<li><a href="#">Data Science and Data Analytics</a></li>
+											<li><a href="#">Covid 19 cases prediction using Machine Learning</a></li>
+										</ul>
+									</section>
+
+							</div>
+							<div class="col-3 col-6-medium col-12-small">
+
+								<!-- Links -->
+									<section class="widget links">
+										<h3>Deep Learning and Machine Learning Libraries</h3>
+										<ul class="style2">
+											<li><a href="#">Scikit Learn, Numpy, Matplotlib</a></li>
+											<li><a href="#">PyTorch</a></li>
+											<li><a href="#"></a></li>
+											<li><a href="#">OpenCV</a></li>
+										</ul>
+									</section>
+
+							</div>
+							<div class="col-3 col-6-medium col-12-small">
+
+								<!-- Contact -->
+									<section class="widget contact last">
+										<h3>Contact Us</h3>
+										<ul>
+											<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+											<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+											<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+											<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+											<li><a href="#" class="icon brands fa-pinterest"><span class="label">Pinterest</span></a></li>
+										</ul>
+										<p>317, 12th Cross, Bayanna Layout, Bhatterhalli, Virgo Nagar Post<br />
+										 KR Puram, Bangalore KA 560049<br />
+										+91-9902070668</p>
+									</section>
+
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-12">
+								<div id="copyright">
+									<ul class="menu">
+										<li>&copy; Vidhya Technologies. Pvt. Ltd. All rights reserved</li><li>Design: <a href="http://html5up.net">Vidhya Technologies Pvt. Ltd.</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</footer>
+				</div>
+
+			</div>
+
+		<!-- Scripts -->
+
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
