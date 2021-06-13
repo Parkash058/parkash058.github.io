@@ -1,290 +1,403 @@
-<!DOCTYPE HTML>
-<!--
-	Verti by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Civic - CV Resume</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Civic - CV Resume">
+	<meta name="keywords" content="resume, civic, onepage, creative, html">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Favicon -->   
+	<link href="img/favicon.ico" rel="shortcut icon"/>
 
-	<head>
-		<title>AI and IoT Learners Hub.</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,600,600i,700" rel="stylesheet">
 
-	<body class="is-preload homepage">
-		<div id="page-wrapper">
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="css/flaticon.css"/>
+	<link rel="stylesheet" href="css/owl.carousel.css"/>
+	<link rel="stylesheet" href="css/magnific-popup.css"/>
+	<link rel="stylesheet" href="css/style.css"/>
 
-			<!-- Header -->
-			<div id="header-wrapper">
-				<header id="header" class="container">
 
-					<!-- Logo -->
-					<div id="logo">
-						<h1><a href="index.html">AI and IoT Learners Hub.</a></h1>
-						<span> </span>
-					</div>
+	<!--[if lt IE 9]>
+	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
 
-					<!-- Nav -->
-					<nav id="nav">
-						<ul>
-							<li class="current"><a href="index.html">Home</a></li>
-							<li>
-								<a href="#">Courses</a>
-								<ul>
-									<li><a href="webtech.html">Foundation of Web Technologies</a>
-										<ul>
-											<li><a href="html-basics.html">Basics of HTML</a></li>
-											<li><a href="css-basics.html">Fundamental of CSS</a></li>
-											<li><a href="javascript-basics.html">Basics of Java Script</a></li>
-									</li>
-								</ul>
-							<li><a href="#">Internet of Things and Robotics</a></li>
-							<li>
-								<a href="#">Data Science</a>
-								<ul>
-									<li><a href="#">Numpy</a></li>
-									<li><a href="#">Pandas</a></li>
-									<li><a href="#">Matplotlib</a></li>
-									<li><a href="#">Machine Learning </a></li>
-								</ul>
-							</li>
-							<li><a href="#">Deep Learning</a></li>
-						</ul>
-						</li>
-						<li><a href="blog.html">Blog</a></li>
-						<li><a href="resources.html">Resources</a></li>
-						<li><a href="contact.html">Contact Us</a></li>
-						</ul>
-					</nav>
-
-				</header>
-			</div>
-
-			<!-- Banner -->
-			<div id="banner-wrapper">
-				<div id="banner" class="box container">
-					<div class="row">
-						<div class="col-7 col-12-medium">
-							<h2></h2>
-							<p>The Open Source AI and Deep Learning Resources and Blogs</p>
-						</div>
-						<div class="col-5 col-12-medium">
-							<ul>
-								<li><a href="https://www.murtazahassan.com/" class="button large icon solid fa-arrow-circle-right">Ok
-										let's go</a></li>
-								<li><a href="https://www.deeplearning.ai/" class="button alt large icon solid fa-question-circle">More
-										info</a></li>
-							</ul>
-						</div>
+</head>
+<body>
+	<!-- Page Preloder -->
+	<div id="preloder">
+		<div class="loader"></div>
+	</div>
+	
+	<!-- Header section start -->
+	<header class="header-section">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="site-logo">
+						<h2><a href="#">Civic</a></h2>
+						<p>Enhance your online presence</p>
 					</div>
 				</div>
-			</div>
-
-			<!-- Features -->
-			<div id="features-wrapper">
-				<div class="container">
-					<div class="row">
-						<div class="col-4 col-12-medium">
-
-							<!-- Box -->
-							<section class="box feature">
-								<a href="https://www.w3schools.com/howto/howto_css_blog_layout.asp" class="image featured"><img
-											 src="images/javas.png" alt="" /></a>
-								<div class="inner">
-									<header>
-										<h2>HTML, CSS, Java Script</h2>
-										<p>The smart way of learning Web Technolgies</p>
-									</header>
-									<p>The HTML-CSS-JS trio are the parts of all websites that users directly interact with.
-										Maximize your coding efficiency and provide the best user experience with our free online tool
-										collection!. TML is the foundation of all web pages.
-										It defines the structure of a page, while CSS defines its style.
-										HTML and CSS are the beginning of everything you need to know to make your first web page! Learn
-										both and start creating amazing websites.</p>
-								</div>
-							</section>
-
-						</div>
-						<div class="col-4 col-12-medium">
-
-							<!-- Box -->
-							<section class="box feature">
-								<a href="https://www.machinemetrics.com/blog/industry-4-0-technologies" class="image featured"><img
-											 src="images/industry.png.crdownload" alt="" /></a>
-								<div class="inner">
-									<header>
-										<h2>Artificial Intelligence and Industry 4.0</h2>
-										<p>Artificial Intelligence - The Driving Force of Industry 4.0</p>
-									</header>
-									<p>Industry 4.0 is revolutionizing the way companies manufacture, improve and distribute their
-										products. Manufacturers are integrating enabling technologies,
-										including Internet of Things (IoT), cloud computing and analytics, and AI and machine learning into
-										their production facilities and throughout their operations..</p>
-								</div>
-							</section>
-
-						</div>
-						<div class="col-4 col-12-medium">
-
-							<!-- Box -->
-							<section class="box feature">
-								<a href="https://data-flair.training/blogs/iot-tutorials-home/" class="image featured"><img
-											 src="images/iot.png.crdownload" alt="" /></a>
-								<div class="inner">
-									<header>
-										<h2>Internet of Things and Robotics</h2>
-										<p>The Internet of Robotic Things: How IoT and Robotics Tech Are Evolving Together</p>
-									</header>
-									<p>The IoT and robotics communities are coming together to create The Internet of Robotic Things
-										(IoRT). The IoRT is a concept in which intelligent devices
-										can monitor the events happening around them, fuse their sensor data, make use of local and
-										distributed intelligence to decide on courses of action and then
-										behave to manipulate or control objects in the physical world..</p>
-								</div>
-							</section>
-
-						</div>
-					</div>
+				<div class="col-md-8 text-md-right header-buttons">
+					<a href="download.html"  target = "frame-main" class="site-btn">Download CV</a>
+					<a href="discover.html"  target = "frame-main" class="site-btn">To know more</a>
+				
 				</div>
 			</div>
-
-			<!-- Main -->
-			<div id="main-wrapper">
-				<div class="container">
-					<div class="row gtr-200">
-						<div class="col-4 col-12-medium">
-
-							<!-- Sidebar -->
-							<div id="sidebar">
-								<section class="widget thumbnails">
-									<h3>Interesting stuff</h3>
-									<div class="grid">
-										<div class="row gtr-50">
-											<div class="col-6"><a href="#" class="image fit"><img src="images/bd.jpg" alt="" /></a></div>
-											<div class="col-6"><a href="#" class="image fit"><img src="images/edge.jpg" alt="" /></a></div>
-											<div class="col-6"><a href="#" class="image fit"><img src="images/py.jpg" alt="" /></a></div>
-											<div class="col-6"><a href="#" class="image fit"><img src="images/qc.jpg" alt="" /></a></div>
-										</div>
-									</div>
-									<a href="#" class="button icon fa-file-alt">More</a>
-								</section>
-							</div>
-
-						</div>
-						<div class="col-8 col-12-medium imp-medium">
-
-							<!-- Content -->
-							<div id="content">
-								<section class="last">
-									<h2>So what's this all about?</h2>
-									<p>This is <strong>Vidhya Technologies</strong>, a free and Open source platform to learn the advance
-										technologes. <a href="http://html5up.net"></a>.
-										The goal of this site is to help you learn how to do cool new things. You can find lot of advance
-										technogies blog and free resources such as Arduiono Microcontroller, the Raspberry Pi, Python and
-										Machine Learning. You can find the blogs on emerging technologies such as Big Data, Edge Computing,
-										IoT, Robotics, Machine Learning, and Industry 4.0 </p>
-									<a href="#" class="button icon solid fa-arrow-circle-right">Continue Reading</a>
-								</section>
-							</div>
-
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<!-- Footer -->
-			<div id="footer-wrapper">
-				<footer id="footer" class="container">
-					<div class="row">
-						<div class="col-3 col-6-medium col-12-small">
-
-							<!-- Links -->
-							<section class="widget links">
-								<h3>Main Courses</h3>
-								<ul class="style2">
-									<li><a href="webtech.html">Fundamentals of Web Technologies</a></li>
-									<li><a href="#">Basics of Python</a></li>
-									<li><a href="#">Introduction to Numpy, Pandas and Matplotlib</a></li>
-									<li><a href="#">Hands on Machine Learning</a></li>
-									<li><a href="#">Introduction to Internet of Things and Robotics</a></li>
-								</ul>
-							</section>
-
-						</div>
-						<div class="col-3 col-6-medium col-12-small">
-
-							<!-- Links -->
-							<section class="widget links">
-								<h3>Important Links</h3>
-								<ul class="style2">
-									<li><a href="#">The 4th Industrial Revolution</a></li>
-									<li><a href="#">The Internet of Robotics Things</a></li>
-									<li><a href="#">The Cloud and Edge Computing</a></li>
-									<li><a href="#">Data Science and Data Analytics</a></li>
-									<li><a href="#">Covid 19 cases prediction using Machine Learning</a></li>
-								</ul>
-							</section>
-
-						</div>
-						<div class="col-3 col-6-medium col-12-small">
-
-							<!-- Links -->
-							<section class="widget links">
-								<h3>Deep Learning and Machine Learning Libraries</h3>
-								<ul class="style2">
-									<li><a href="#">Scikit Learn, Numpy, Matplotlib</a></li>
-									<li><a href="#">PyTorch</a></li>
-									<li><a href="#"></a></li>
-									<li><a href="#">OpenCV</a></li>
-								</ul>
-							</section>
-
-						</div>
-						<div class="col-3 col-6-medium col-12-small">
-
-							<!-- Contact -->
-							<section class="widget contact last">
-								<h3>Contact Us</h3>
-								<ul>
-									<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-									<li><a href="#" class="icon brands fa-pinterest"><span class="label">Pinterest</span></a></li>
-								</ul>
-								<p>317, 12th Cross, Bayanna Layout, Bhatterhalli, Virgo Nagar Post<br />
-									KR Puram, Bangalore KA 560049<br />
-									+91-9902070668</p>
-							</section>
-
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-12">
-							<div id="copyright">
-								<ul class="menu">
-									<li>&copy; Vidhya Technologies. Pvt. Ltd. All rights reserved</li>
-									<li>Design: <a href="http://html5up.net">Vidhya Technologies Pvt. Ltd.</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</footer>
-			</div>
-
 		</div>
+	</header>
+	<!-- Header section end -->
 
-		<!-- Scripts -->
+	<!-- Hero section start -->
+	<section class="hero-section spad">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xl-10 offset-xl-1">
+					<div class="row">
+						<div class="col-lg-6">
+							<div class="hero-text">
+								<iframe name="frame-main" src="" frameborder="0" width="100%" height="600" style="border:1px solid black;"></iframe>
+							
+								
+								
+								<h2>Parkash Tambare</h2>
+								<p>I am a IT Analyst Love to Solve Techical problems and provide the better resolutions within shorter period of a time.</p>
+							
+							</div>
+							<div class="hero-info">
+								<h2>General Info</h2>
+								<ul>
+									<li><span>Date of Birth</span>JUL 01, 1990</li>
+									<li><span>Address</span>12th Cross Bayanna Layout Virgo Nagar Post, K R Puram Bangalore</li>
+									<li><span>E-mail</span>parkash.tambare@unisys.com</li>
+									<li><span>Phone </span>+91 990-207-0668</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<figure class="hero-image">
+								<img src="img/Tambare.PNG" alt="5">
+							</figure>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Hero section end -->
 
-		<script src="assets/js/jquery.min.js"></script>
-		<script src="assets/js/jquery.dropotron.min.js"></script>
-		<script src="assets/js/browser.min.js"></script>
-		<script src="assets/js/breakpoints.min.js"></script>
-		<script src="assets/js/util.js"></script>
-		<script src="assets/js/main.js"></script>
+	<!-- Social links section start -->
+	<div class="social-section">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xl-10 offset-xl-1">
+					<div class="social-link-warp">
+						<div class="social-links">
+							<a href="https://in.pinterest.com/parkashtambare/_saved/"><i class="fa fa-pinterest"></i></a>
+							<a href="https://www.linkedin.com/in/parkash-tambare-08835854/"><i class="fa fa-linkedin"></i></a>
+							<a href="https://www.instagram.com/parkashtambare/"><i class="fa fa-instagram"></i></a>
+							<a href="https://www.facebook.com/parkash.tambare/"><i class="fa fa-facebook"></i></a>
+							<a href="https://twitter.com/ParkashTambare"><i class="fa fa-twitter"></i></a>
+						</div>
+						<h2 class="hidden-md hidden-sm">My Social Profiles</h2>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>	
+	<!-- Social links section end -->
 
-	</body>
+	<!-- Resume section start -->
+	<section class="resume-section spad">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xl-7 offset-xl-2">
+					<div class="section-title">
+						<h2>Work Experience</h2>
+					</div>
+					<ul class="resume-list">
+						<li>
+							<h2>2019-Present</h2>
+							<h3>Sr. Technical Support at Unisys India Pvt Ltd <Representative class=" "></Representative></h3>
+							<h4>IT Support</h4>
+								<ul>
+									<li>Serve as the second point of contact for B2B Users seeking technical assistance.</li>
+									<li>Perform remote troubleshooting through diagnostic techniques and pertinent questions</li>
+									<li>Solve the Technical issues associated with Office365, Azure Cloud, One Drive, Network • Drives, Microsoft Share point,Skype 4 Business, SAP
+									Front End and many other Internal Client Applications</li>
+									<li>Handling Asset Management and Client machine configuration.
+									</li>
+									<li>Install and support user applications such as Mail and web gateways, user applications Python Anaconda, Java, Oracle, Citrix desktop applications, VmWare, corporate apps, Wizard</li>
+									<li>Record events and problems and their resolution in logs</li>
+									<li>Pulling the ageing tickets from Service now, developing analysis on ageing ticket and sharing the details with manager</li>
+									<li>Working closely with manager and leads to meet the meet the business SLA</li>
+									<li>Handling Network related issues TCP/IP networking, and related network services (i.e. DNS, SMTP, DHCP, etc).</li>
+									<li>Configuring Active Directory and administration.</li>
+									<li>Familiar with many IT Tools and Applications, BMC Remedy, Service now, FIM, MS Power Apps, Azure AD, Citrix Workspace. etc</li>
+									<li> Handling Escalations and critical issues.</li>
+								</ul>
+						</li>
+						<li>
+							<h2>2016-2018</h2>
+							<h3>Technical Service Associate at Concentrix Services India Pvt. Ltd.</h3>
+							<h4>Laptop, Desktop, Server Support</h4>
+							<ul>
+								<li>Trouble shooting the issues of laptops and desktops.
+								</li>
+								<li>Listening customer problem, Analyzing, troubleshooting, and resolving technical issues Over phone or Remote Access or send the part along
+									with Engineer to customer place to fix the issue</li>
+								<li>Diagnosing the System and identifying the issues in the system</li>
+								<li>Fixing the issues over the phone or remote access.</li>
+								<li> Installing different OS like Windows 7, Windows 8.1 , Windows 10,and Ubunt</li>
+								<li>Responsible for escalations, and timely support.</li>
+								<li>Communicating with different team involved in the process (Service Centers, Logistics, Warehouse, L2 technical team, Sales Team ) over phone
+									or email.</li>
+								<li>Taking Ownership of the Issues to rectify the issues and timely fallow up</li>
+								<li>Resolving the issues within SLA</li>
+								</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Resume section end -->
 
+	<!-- Resume section start -->
+	<section class="resume-section with-bg spad">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xl-7 offset-xl-2">
+					<div class="section-title">
+						<h2>Education</h2>
+					</div>
+					<ul class="resume-list">
+						<li>
+							<h2>2005-2010</h2>
+							<h3>Computer Science and Engineering</h3>
+							<h4>Rural Engineering College, Bhalki. Karnataka</h4>
+						</li>
+						<li>
+							<h2>2013-2015</h2>
+							<h3>Industrial Automation and Robotics</h3>
+							<h4>Srinivas Institute of Technology, Mangalore Karnataka</h4>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Resume section end -->
+
+	
+	<!-- Review section start -->
+	<section class="review-section spad pb-0">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xl-7 offset-xl-2">
+					<div class="section-title">
+						<h2>References</h2>
+					</div>
+					<div class="review-slider owl-carousel">
+						<div class="single-review">
+							<div class="qut">“</div>
+							<p>Parkash Tambare has wider experience of team management. His impeccable quality of effective communication has produced amazing results in times of crisis. 
+								He is a socially motivated person who has the sense of responsibilities towards society, group, or community. Working with him was a great pleasure to learn 
+								and exchange the ideas, values and moral codes of practice in daily life.. </p>
+							<h3>Dr. Ramachandra C Gh</h3>
+							<h4>HOD, Dept. of Marine Engineering, SIT Managlore</h4>
+						</div>
+						<div class="single-review">
+							<div class="qut">“</div>
+							<p>Parkash Tambare is a great team player with high disposition of leadership charisma with clear exhibition of focus. He is such a smart, 
+								intelligent and great person in interrelationships and bicultural trends during our postgraduate studies at 
+								the Srinivas Institute of Techology, Mangalore.. </p>
+							<h3>Ass. Prof. Chandra Jogi</h3>
+							<h4>Dept. of Mechanical Engineering, Srinivas Institute of Technology, Nangalore</h4>
+						</div>
+						<div class="single-review">
+							<div class="qut">“</div>
+							<p>Parkash Tambare is a wonderful and fantastic individual. He is very dutiful and dedicated to every task. Also, a very good team player. We were class mate, and we have had course to also work in the team team/group.. </p>
+							<h3>Karthik M P</h3>
+							<h4>Unisys India. Pvt. Ltd.</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Review section end -->
+
+
+	<!-- Portfolio section start -->
+	<section class="portfolio-section spad pb-0">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xl-4 col-md-8 offset-xl-2 ">
+					<div class="section-title">
+						<h2>Portfolio</h2>
+					</div>
+				</div>
+				<div class="col-md-4 text-md-right">
+					<a href="#" class="site-btn mb-5">See All Portfolio</a>
+				</div>
+			</div>
+			<div class="portfolio-warp">
+				<div class="row">
+					<div class="col-xl-3 col-lg-6 col-md-6">
+						<div class="portfolio-item">
+							<a href="img/portfolio/1.jpg" class="set-bg port-pic" data-setbg="img/portfolio/1.jpg"></a>
+							<h2>Brand Campaign</h2>
+							<p>Graphic design</p>
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-6 col-md-6">
+						<div class="portfolio-item">
+							<a href="img/portfolio/2.jpg" class="set-bg port-pic" data-setbg="img/portfolio/2.jpg"></a>
+							<h2>A Corporate Identity</h2>
+							<p>Graphic design</p>
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-6 col-md-6">
+						<div class="portfolio-item">
+							<a href="img/portfolio/3.jpg" class="set-bg port-pic" data-setbg="img/portfolio/3.jpg"></a>
+							<h2>Web Design Website</h2>
+							<p>Graphic design</p>
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-6 col-md-6">
+						<div class="portfolio-item">
+							<a href="img/portfolio/4.jpg" class="set-bg port-pic" data-setbg="img/portfolio/4.jpg"></a>
+							<h2>Logo design</h2>
+							<p>Graphic design</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Portfolio section end -->
+
+	<!-- Extra section start -->
+	<section class="extra-section spad pb-0">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xl-8 offset-xl-2">
+					<div class="section-title">
+						<h2>Extra Skills</h2>
+					</div>
+					<div class="row">
+						<div class="col-lg-3 col-md-6 pt-5">
+							<div class="fact-box trans">
+								<div class="fact-content">
+									<div class="circle-progress">
+										<div id="progress1" class="prog-circle"></div>
+										<div class="progress-info">
+											<h2>90%</h2>
+										</div>
+										<div class="prog-title">
+											<h3>Hardware and Networking</h3>
+											<p>Desktop, Laptop, Server and Application Support.</p>
+										</div>			
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 pt-5">
+							<div class="fact-box trans">
+								<div class="fact-content">
+									<div class="circle-progress">
+										<div id="progress2" class="prog-circle"></div>
+										<div class="progress-info">
+											<h2>83%</h2>
+										</div>
+										<div class="prog-title">
+											<h3>Microsoft Azure IAM</h3>
+											<p>MS MDM, IAM, Sharepoint, Office365.</p>
+										</div>			
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6">
+							<div class="fact-box">
+								<div class="fact-content">
+									<img src="img/icon/1-w.png" alt="">
+									<h2>5</h2>
+									<p>Years of Experience</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6">
+							<div class="fact-box">
+								<div class="fact-content">
+									<img src="img/icon/2-w.png" alt="">
+									<h2>10</h2>
+									<p>Awards Won</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Extra section end -->
+
+	<!-- Contact section start -->
+	<section class="contact-section spad">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xl-8 offset-xl-2">
+					<div class="section-title">
+						<h2>Contact Me</h2>
+					</div>
+					<form class="contact-form">
+						<div class="row">
+							<div class="col-md-6">
+								<input type="text" placeholder="Name">
+							</div>
+							<div class="col-md-6">
+								<input type="text" placeholder="E-mail">
+							</div>
+							<div class="col-md-12">
+								<input type="text" placeholder="Subject">
+								<textarea placeholder="Message"></textarea>
+							</div>
+						</div>
+						<div class="text-md-right">
+							<button class="site-btn">Send message</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Contact section end -->
+
+	<!-- Footer section start -->
+	<footer class="footer-section">
+		<div class="container text-center">
+			<div class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Parkash Tambare <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="wwww.parkash058.github.io" target="_blank">Vidhya</a> &amp; distirbuted by <a href="https://themewagon.com" target="_blank">Tambare Technologies</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+</div>
+		</div>
+	</footer>
+	<!-- Footer section end -->
+
+
+	<!--====== Javascripts & Jquery ======-->
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/magnific-popup.min.js"></script>
+	<script src="js/circle-progress.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
 </html>
